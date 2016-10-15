@@ -33,7 +33,7 @@ number_of_attributes = np.zeros(dataSet.shape[1]-1)
 for attribute_type in range(dataSet.shape[1]-1):
     number_of_attributes[attribute_type] = np.unique(dataSet[:, attribute_type+1].astype(int)).shape[0]
 
-print(number_of_attributes)
+#print(number_of_attributes)
 
 
 #all the 4x3 theta values will be stored here. p(attribute = 1|class = 4) will be
@@ -48,11 +48,24 @@ for i in range(dataSet.shape[1]-1):
     allTheta[i] = theta
 
 
+def nbcPredict(allTheta, allPi, testSet):
+    classProbabilities = np.ones(classLabels.shape[0])
+
+    for aClass in range(classLabels.shape[0]):
+        thetaProduct = 1
+        for i in range(testSet.shape[0]):
+            thetaProduct *= allTheta[i][aClass][int(testSet[i])]
+            #print(allTheta[i][aClass][int(testSet[i])])
+        classProbabilities[aClass] = allPi[aClass]*thetaProduct
+    return classProbabilities
 
 
 print('Class Labels: ', classLabels)
-print('Class Bins: ',classBins)
-print('Class Prior or pi: ',pi_c)
-print('Theta Vals: ', allTheta)
+#print('Class Bins: ',classBins)
+#print('Class Prior or pi: ',pi_c)
+#print('Theta Vals: ', allTheta)
+print(np.argmax(nbcPredict(allTheta, pi_c, dataSet[3][1:])))
+
+#print(dataSet[0][1:])
 
 
