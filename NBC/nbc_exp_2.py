@@ -4,7 +4,7 @@ from scipy.misc import logsumexp
 
 
 #loading the data source file
-dataFile = open('DataFiles\Source_1_50_exemplars.txt', 'r')
+dataFile = open('DataFiles\Source_4_1000_exemplars.txt', 'r')
 dataSet = np.loadtxt(dataFile)
 
 #print(dataSet[1:,])
@@ -40,13 +40,15 @@ def get_pi_for_mle(dataSet):
     return pi_c
 
 
-def get_pi_for_map(classBins, total_number_of_samples, alpha):
+
+def get_pi_for_map(dataSet, alpha):
+    classBins = get_class_bins(dataSet)
+    total_number_of_samples = get_total_number_of_samples(dataSet)
+
     classBins_with_aplpha_addition = classBins + np.ones(classBins.shape[0])*alpha
     total_number_of_samples_with_all_aplpha_addition = total_number_of_samples + alpha*total_number_of_samples
     pi_c = np.divide(classBins_with_aplpha_addition, total_number_of_samples_with_all_aplpha_addition)
     return  pi_c
-
-
 
 
 
@@ -126,7 +128,7 @@ def get_accuracy_via_cross_validation(dataSet):
     correct_prediction_counter = 0
     for row in range(len(dataSet)-1):
         new_dataset_with_a_row_exclusion = np.delete(dataSet, row, 0)
-        if(int(dataSet[row][0]) == int(nbcPredict(get_theta_for_mle(new_dataset_with_a_row_exclusion), get_pi_for_mle(new_dataset_with_a_row_exclusion), dataSet[row][1:]))):
+        if(int(dataSet[row][0]) == int(nbcPredict_with_logsumexp_trick(get_theta_for_mle(new_dataset_with_a_row_exclusion), get_pi_for_map(new_dataset_with_a_row_exclusion, .5), dataSet[row][1:]))):
             correct_prediction_counter += 1
     return correct_prediction_counter*100/len(dataSet)
 
