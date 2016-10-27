@@ -5,6 +5,15 @@
 
 
 
+
+
+#Naive Bayes Classifier.
+#My Git Reop :: https://github.com/pseudoPixels/NaiveBayes_MachineLearning
+
+
+
+
+
 #===========================================USEFUL IMPORTS================================
 import numpy as np
 import math
@@ -22,6 +31,9 @@ from scipy.misc import logsumexp
 #==========================================LOADING THE DATA FILES========================
 dataFile = open('DataFiles\Source_3_100_exemplars.txt', 'r')
 dataSet = np.loadtxt(dataFile)
+
+
+
 
 
 

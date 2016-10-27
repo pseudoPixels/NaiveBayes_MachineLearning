@@ -42,13 +42,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="nbc_exp_2.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="nbc_exp_2.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/nbc_exp_2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="387" column="32" selection-start-line="387" selection-start-column="32" selection-end-line="387" selection-end-column="32" />
+            <state relative-caret-position="220">
+              <caret line="54" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="425" selection-end-column="0" />
               <folding>
-                <element signature="e#227#245#0" expanded="true" />
+                <element signature="e#334#352#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NaiveBayesClassifier_gom766.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/NaiveBayesClassifier_gom766.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="460">
+              <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+              <folding>
+                <element signature="e#486#504#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -57,7 +69,7 @@
       <file leaf-file-name="data_cor.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/data_cor.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
+            <state relative-caret-position="200">
               <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="28" selection-end-column="14" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
@@ -84,6 +96,7 @@
         <option value="$PROJECT_DIR$/step3.py" />
         <option value="$PROJECT_DIR$/data_cor.py" />
         <option value="$PROJECT_DIR$/nbc_exp_2.py" />
+        <option value="$PROJECT_DIR$/NaiveBayesClassifier_gom766.py" />
       </list>
     </option>
   </component>
@@ -160,24 +173,7 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Python.nbc_exp_2">
-    <configuration default="false" name="nbc_new" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="NBC" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/nbc_new.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.NaiveBayesClassifier_gom766">
     <configuration default="false" name="nbc_exp" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -242,6 +238,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="NBC" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/step3.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="NaiveBayesClassifier_gom766" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="NBC" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/NaiveBayesClassifier_gom766.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -394,19 +407,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.nbc_new" />
-      <item index="1" class="java.lang.String" itemvalue="Python.nbc_exp" />
-      <item index="2" class="java.lang.String" itemvalue="Python.nbc_exp_2" />
-      <item index="3" class="java.lang.String" itemvalue="Python.data_cor" />
-      <item index="4" class="java.lang.String" itemvalue="Python.step3" />
+      <item index="0" class="java.lang.String" itemvalue="Python.nbc_exp" />
+      <item index="1" class="java.lang.String" itemvalue="Python.nbc_exp_2" />
+      <item index="2" class="java.lang.String" itemvalue="Python.data_cor" />
+      <item index="3" class="java.lang.String" itemvalue="Python.step3" />
+      <item index="4" class="java.lang.String" itemvalue="Python.NaiveBayesClassifier_gom766" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.nbc_exp_2" />
-        <item index="1" class="java.lang.String" itemvalue="Python.data_cor" />
-        <item index="2" class="java.lang.String" itemvalue="Python.step3" />
-        <item index="3" class="java.lang.String" itemvalue="Python.nbc_exp" />
-        <item index="4" class="java.lang.String" itemvalue="Python.nbc_new" />
+        <item index="0" class="java.lang.String" itemvalue="Python.NaiveBayesClassifier_gom766" />
+        <item index="1" class="java.lang.String" itemvalue="Python.nbc_exp_2" />
+        <item index="2" class="java.lang.String" itemvalue="Python.data_cor" />
+        <item index="3" class="java.lang.String" itemvalue="Python.step3" />
+        <item index="4" class="java.lang.String" itemvalue="Python.nbc_exp" />
       </list>
     </recent_temporary>
   </component>
@@ -470,6 +483,44 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/nbc_exp.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nbc_exp_2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+          <folding>
+            <element signature="e#334#352#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_cor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="28" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nbc_new.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="740">
+          <caret line="37" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nbc_exp.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding>
@@ -483,7 +534,45 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#227#245#0" expanded="true" />
+            <element signature="e#334#352#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_cor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="28" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nbc_new.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="740">
+          <caret line="37" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nbc_exp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nbc_exp_2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#334#352#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -521,7 +610,7 @@
         <state relative-caret-position="1880">
           <caret line="96" column="30" selection-start-line="96" selection-start-column="30" selection-end-line="96" selection-end-column="30" />
           <folding>
-            <element signature="e#227#245#0" expanded="true" />
+            <element signature="e#334#352#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -567,7 +656,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#227#245#0" expanded="true" />
+            <element signature="e#334#352#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -605,7 +694,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="30" />
           <folding>
-            <element signature="e#227#245#0" expanded="true" />
+            <element signature="e#334#352#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -643,7 +732,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#227#245#0" expanded="true" />
+            <element signature="e#334#352#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -671,7 +760,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#227#245#0" expanded="true" />
+            <element signature="e#334#352#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -699,7 +788,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#227#245#0" expanded="true" />
+            <element signature="e#334#352#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -780,7 +869,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/data_cor.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
+        <state relative-caret-position="200">
           <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="28" selection-end-column="14" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
@@ -790,10 +879,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/nbc_exp_2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="387" column="32" selection-start-line="387" selection-start-column="32" selection-end-line="387" selection-end-column="32" />
+        <state relative-caret-position="220">
+          <caret line="54" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="425" selection-end-column="0" />
           <folding>
-            <element signature="e#227#245#0" expanded="true" />
+            <element signature="e#334#352#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NaiveBayesClassifier_gom766.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding>
+            <element signature="e#486#504#0" expanded="true" />
           </folding>
         </state>
       </provider>
